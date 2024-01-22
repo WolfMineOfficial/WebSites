@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
+header{
+    background-color: white;
+    height: 65px;
+    padding: 20px;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+
+}
+
+nav{
+    position: relative;
+    bottom:40px;
+    left:600px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+#button-container{
+    position: relative;
+
+
+    margin: 0;
+    width: 10%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+#top-contact{
+    height: 30px;
+    background-color: rgb(255, 227, 224);
+}
+
+#top-contact div{
+    height: 20px;
+    padding: 5px;
+    margin-left: 3%;
+}
+
+#logo-container{
+    height: 65px;
+    width: 20%;
+    margin-left: 2.5%;
+    background-color: white;
+}
+
+#logo-container p{
+    text-align: center;
+    font-size: 3.23em;
+    font-weight: 400;
+    margin: 0;
+}
+
+#logo-container p strong{
+    color:rgb(255, 187, 61);
+}
+
+#appoint-shadowing{
+    height: 1040px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#appoitment-container{
+    background-image: url("../img/carousel-3.jpg");
+    position: absolute;
+    height: 1040px;
+    opacity: 1;
+    animation-duration: 2.5s;
+    animation-name: appointImg;
+}
+
+@keyframes appointImgEffect {
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#appoint-content{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    overflow: hidden;
+    text-align: center;
+    width: 40%;
+    height: 1040px;
+    margin: 0 auto;
+    padding: 300px;
+}
+
+#appoint-content strong{
+    margin: 0;
+    margin-top: 4%;
+    font-size: 5em;
+    font-weight: 600;
+}
+
+#appoint-content p{
+    margin: 0;
+    margin-top: 2%;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+#appoint-shadowing div button{
+    background-color: rgba(0, 0, 0, 0);
+    border: white solid 1px;
+    color: white;
+    font-weight: 50;
+    margin-top:4.8%;
+    font-size: 1em;
+    letter-spacing: 0.3px;
+    height: 50px;
+    width: 200px;
+}
+
+#slider1, #slider2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+    border: white solid 1px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#slider-container{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 280px;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+#sliderlong{
+    background-color: rgba(255,255,255,1);
+    border: white solid 1px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
